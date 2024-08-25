@@ -16,20 +16,8 @@
 
 .homfoot-logo {
     display: flex;
-    align-items: flex-end; /* Aligns the logo at the bottom */
     justify-content: center;
     padding-bottom: 20px; 
-}
-.homfoot-logo img {
-    height: 160px; 
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Adds smooth transitions */
-    
-}
-
-.homfoot-logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px; 
 }
 
 .homfoot-logo img {
@@ -88,20 +76,7 @@
     position: relative;
 }
 
-@media (max-width: 480px){
-    .homfoot-head{
-        margin-left: 20px;
-        margin-bottom:40px;
-    }
 
-    .homfoot-logo{
-        padding: 3px 0px 5px 70px;
-    }
-    .homfoot-logo img{
-        height: 100px;
-    }
-
-}
 
 .homfoot-head::after {
     content: '';
@@ -584,13 +559,31 @@
         left: auto;
         right: 0;
         transform: none;
-        margin-top: 10px;
+        margin-top: 20px;
         display: flex;
         justify-content: center; 
     }
+    .homfoot-logo a{
+        padding: 10px 0px 110px  200px;
+    }
+    .homfoot-logo img{
+        height: 120px;
+    }
 
 }
+@media (max-width: 480px){
+    .homfoot-head{
+        margin-left: 20px;
+        margin-bottom:40px;
+    }
+    .homfoot-logo a{
+        padding: 20px 60px 70px  100px;
+    }
+    .homfoot-logo img{
+        height: 80px;
+    }
 
+}
 @media (max-width: 480px) {
         .homfooter {
             padding: 5px;
