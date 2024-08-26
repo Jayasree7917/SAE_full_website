@@ -1,14 +1,10 @@
-
-import React, { useEffect, useState } from 'react';
 import Lottie from 'lottie-react';
-import { scroll, animate } from 'https://cdn.skypack.dev/motion@10.13.1';
 import './HomePage.css';
 import cloudAnimation from '../../Cloud.json';
 import engineAnimation from '../../Engine1.json';
 import ReactPlayer from 'react-player';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import {motion} from 'framer-motion'
 
 
 AOS.init({
@@ -167,7 +163,7 @@ const HomePage= () => {
       <div id="homcontainer-fluid">
         <div className="homevent-content">
         <div className="homfist-image ">
-          <img className='pl-14 pt-14'
+          <img className='pl-12 pt-14'
             src="https://github.com/Suke2004/Birthday-django-/blob/main/IMG-20240821-WA0048.jpg?raw=true"
             alt="Image"
             data-aos="fade-right"
@@ -194,7 +190,7 @@ const HomePage= () => {
           <div className="hombaja-image">
           <img
             src="https://saenitdgp-self.vercel.app/static/media/fullvehicle.72e6f860c848885980de.png"
-            alt="Image"
+            alt="img"
             data-aos="fade-left"
           />
         </div>
@@ -207,7 +203,7 @@ const HomePage= () => {
         <div className="homaiml-image">
           <img className='pl-14 pt-6'
             src="https://github.com/Suke2004/Birthday-django-/blob/main/IMG-20240821-WA0076.jpg?raw=true"
-            alt="Image"
+            alt="img"
             data-aos="fade-right"
           />
         </div>

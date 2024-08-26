@@ -794,26 +794,35 @@
 }
 
 .homfist-image {
-  height: 550px;
-  width: 450px;
+  height: 500px;
+  max-width:400px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .homfist-image img {
   width: 100%;
   height: auto;
   max-width: 100%;
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 @media (max-width: 480px) {
   .homfist-image {
     text-align: center;
+    padding-left: 65px;
+    height: 200px;
+    max-width:500px;
+    width: 100%;
+    height: auto;
   }
 
   .homfist-image img {
-    width: 73%;
-    height: auto;
+    width: 60%;
+    margin: 2rem;
   }
 }
 
@@ -873,27 +882,33 @@
 }
 
 .homaiml-image {
-  height: 400px;
-  width: 450px;
-
+  height: 500px;
+  max-width: 500px;
+  width: 100%;
 }
 
 .homaiml-image img {
   width: 100%;
   height: auto;
   max-width: 100%;
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 @media (max-width: 480px) {
   .homaiml-image {
     text-align: center;
+    padding-left: 65px;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
   }
 
   .homaiml-image img {
-    width: 73%;
-    height: auto;
+    width: 60%;
+    margin: 2rem; 
   }
 }
 
