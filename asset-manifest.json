@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SAE_full_website/static/css/main.7d49938c.css",
-    "main.js": "/SAE_full_website/static/js/main.dbf5e6b7.js",
+    "main.css": "/SAE_full_website/static/css/main.c2ef99f5.css",
+    "main.js": "/SAE_full_website/static/js/main.331e23fd.js",
     "reactPlayerYouTube.js": "/SAE_full_website/static/js/reactPlayerYouTube.cf10b402.chunk.js",
     "reactPlayerSoundCloud.js": "/SAE_full_website/static/js/reactPlayerSoundCloud.f98de83b.chunk.js",
     "reactPlayerVimeo.js": "/SAE_full_website/static/js/reactPlayerVimeo.f0214636.chunk.js",
@@ -107,8 +107,8 @@
     "static/media/fa-v4compatibility.ttf": "/SAE_full_website/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/SAE_full_website/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/SAE_full_website/index.html",
-    "main.7d49938c.css.map": "/SAE_full_website/static/css/main.7d49938c.css.map",
-    "main.dbf5e6b7.js.map": "/SAE_full_website/static/js/main.dbf5e6b7.js.map",
+    "main.c2ef99f5.css.map": "/SAE_full_website/static/css/main.c2ef99f5.css.map",
+    "main.331e23fd.js.map": "/SAE_full_website/static/js/main.331e23fd.js.map",
     "reactPlayerYouTube.cf10b402.chunk.js.map": "/SAE_full_website/static/js/reactPlayerYouTube.cf10b402.chunk.js.map",
     "reactPlayerSoundCloud.f98de83b.chunk.js.map": "/SAE_full_website/static/js/reactPlayerSoundCloud.f98de83b.chunk.js.map",
     "reactPlayerVimeo.f0214636.chunk.js.map": "/SAE_full_website/static/js/reactPlayerVimeo.f0214636.chunk.js.map",
@@ -126,7 +126,7 @@
     "453.6d360988.chunk.js.map": "/SAE_full_website/static/js/453.6d360988.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d49938c.css",
-    "static/js/main.dbf5e6b7.js"
+    "static/css/main.c2ef99f5.css",
+    "static/js/main.331e23fd.js"
   ]
 }
