@@ -636,7 +636,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .homabout {
     flex-direction: column;
     padding: 2em;
@@ -753,7 +753,7 @@
   order: 2;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .homevent-content {
     flex-direction: column;
   }

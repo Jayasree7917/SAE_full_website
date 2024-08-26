@@ -295,14 +295,10 @@
     border-width: 2px;
     box-sizing: border-box;
     z-index: 1;
+    margin: 10px;
+
 }
 
-@media (max-width: 480px){
-    .homsocial{
-        bottom: 20px;
-        left:50%;
-    }
-}
 
 .homsocial:hover .homicons {
     opacity: 1; 
@@ -562,6 +558,7 @@
         margin-top: 20px;
         display: flex;
         justify-content: center; 
+        margin-left: 100px;
     }
     .homfoot-logo a{
         padding: 10px 0px 110px  200px;
@@ -584,6 +581,13 @@
     }
 
 }
+@media (max-width: 480px){
+    .homsocial{
+        bottom: 20px;
+        left:50%;
+    }
+}
+
 @media (max-width: 480px) {
         .homfooter {
             padding: 5px;
