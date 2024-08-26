@@ -87,12 +87,6 @@
   margin-top: 0px;
 }
 
-@media (max-width: 768px) {
-  .homheading h1 {
-    font-size: 4vw;
-  }
-}
-
 .homanimated-line {
   width: 80%;
   height: 2px;
@@ -343,7 +337,7 @@
 
 @media (max-width: 768px) {
   .home-container {
-    height: 280vh;
+    height:  auto;
     background: linear-gradient(135deg, #151719, #151719);
   }
 
@@ -794,10 +788,12 @@
 }
 
 .homfist-image {
-  height: 500px;
-  max-width:400px;
   width: 100%;
-  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .homfist-image img {
@@ -813,16 +809,14 @@
 @media (max-width: 480px) {
   .homfist-image {
     text-align: center;
-    padding-left: 65px;
-    height: 200px;
-    max-width:500px;
+    max-width: 500px;
     width: 100%;
     height: auto;
+    margin-right: 2rem;
   }
 
   .homfist-image img {
-    width: 60%;
-    margin: 2rem;
+    width: 60%; 
   }
 }
 
@@ -907,8 +901,7 @@
   }
 
   .homaiml-image img {
-    width: 60%;
-    margin: 2rem; 
+    width: 70%;
   }
 }
 
